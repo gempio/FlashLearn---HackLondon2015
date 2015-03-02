@@ -1,0 +1,264 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Helvetica;
+  background: #2c3e50;
+}
+.element {
+	
+}
+#wrap {
+  margin: 0 auto 30px;
+}
+
+#regbar {
+  height: 67px;
+  background: #34495e;
+}
+
+#navthing {
+  margin-left: 50px;
+}
+
+table {
+	color: #ecf0f1;
+	margin: 0 auto;
+	text-align: center;
+	word-wrap: break-word;
+}
+th, td {
+	border-bottom: 1px solid;
+	padding: 0.5%;
+	width:15%;
+	word-wrap: break-word;
+}
+dq {
+	border: 1px solid;
+	margin: 4%;
+	padding: 4%;
+	background: red;
+	color: black;
+}
+dq:hover {
+	cursor: pointer;
+}
+h1 {
+	position:absolute;
+	color: #ecf0f1;
+	padding: 1%;
+	font-size: 40px;;
+}
+
+huge {
+	color: #ecf0f1;
+	padding: 1%;
+	font-size: 40px;
+}
+h3 {
+	color: #ecf0f1;
+	padding: 1%;
+}
+b {
+	color: #ecf0aa;
+	padding: 1%;
+}
+h2 {
+  padding: 20px;
+  color: #ecf0f1;
+}
+
+fieldset {
+  border: none;
+}
+
+.login {
+  position: relative;
+  width: 350px;
+  display: none;
+}
+.register {
+  position: relative;
+  width: 350px;
+  display: none;
+}
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 15px solid #ECF0F1;
+  left: 30%;
+  position: absolute;
+  top: -10px;
+}
+
+.arrow-up2 {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 15px solid #ECF0F1;
+  left: 60%;
+  position: absolute;
+  top: -10px;
+}
+
+.formholder {
+  background: #ecf0f1;
+  width: 350px;
+  border-radius: 5px;
+  padding-top: 5px;
+}
+.formholder input[type="email"], .formholder input[type="password"], .formholder input[type="text"]  {
+  padding: 7px 5px;
+  margin: 10px 0;
+  width: 96%;
+  display: block;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.formholder input[type="email"]:focus, .formholder input[type="password"]:focus, .formholder input[type="text"]:focus  {
+  outline: none;
+  box-shadow: 0 0 1px 1px #1abc9c;
+}
+.formholder input[type="submit"] {
+  background: #1abc9c;
+  padding: 10px;
+  font-size: 20px;
+  display: block;
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.formholder input[type="submit"]:hover {
+  background: #1bc6a4;
+}
+
+.randompad {
+  padding: 10px;
+}
+
+.green {
+  color: #1abc9c;
+}
+
+a {
+  color: #ecf0f1;
+  text-decoration: none;
+}
+a:hover {
+  color: #1abc9c;
+}
+
+.box {
+	vertical-align: text-top;
+	position:relative;
+	text-align: left;
+	display: inline-block;
+	text-align: top;
+	border: 2px solid;
+    border-radius: 25px;
+    border-color: #ecf0f1;
+    height: 40%;
+    width: 25%;
+    margin-right: 5%;
+    margin-bottom: 2%;
+    background: #ecf0f1;
+    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+
+.box .top_box {
+	border-bottom: 2px solid;
+	border-color: #2c3e50;
+	position: relative;
+}
+.box .description {
+	position: relative;
+	top:6%;
+	left:5%;
+}
+modTitle {
+	margin: 5%;
+	width: 70%;
+	font-size: 25px;
+	display: inline-block;
+}
+description {
+	padding-top: 5%;
+}
+.deletes {
+	padding: 3%;
+	position: absolute;
+	font-size: 15px;
+	right: 0;
+	border-left: 1px solid;
+	border-bottom: 1px solid;
+}
+.deletes:hover {
+	cursor: pointer;
+	-webkit-box-shadow: -2px 2px 2px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: -2px 2px 2px 0px rgba(0,0,0,0.75);
+box-shadow: -2px 2px 2px 0px rgba(0,0,0,0.75);
+}
+.randompad2 {
+  padding: 10px;
+}
+
+.formholder2 {
+  position: relative;
+  background: #ecf0f1;
+  width: 70%;
+  border-radius: 5px;
+  padding-top: 5px;
+  margin: 1%;
+}
+
+.formholder2 input[type="email"], .formholder2 input[type="password"], .formholder2 input[type="text"], .formholder2 textarea  {
+  padding: 7px 5px;
+  margin: 10px 0;
+  width: 96%;
+  font-size: 18px;
+  border-radius: 5px;
+  border: none;
+  -webkit-transition: 0.3s linear;
+  -moz-transition: 0.3s linear;
+  -o-transition: 0.3s linear;
+  transition: 0.3s linear;
+}
+
+.formholder2 input[type="email"]:focus, .formholder2 input[type="password"]:focus, .formholder2 input[type="text"]:focus,.formholder2 textarea:focus  {
+  outline: none;
+  box-shadow: 0 0 1px 1px #1abc9c;
+}
+.formholder2 input[type="submit"] {
+  background: #1abc9c;
+  padding: 10px;
+  font-size: 20px;
+  width: 100%;
+  border: none;
+  color: #fff;
+  border-radius: 5px;
+}
+.formholder2 input[type="submit"]:hover {
+  background: #1bc6a4;
+}
+
+modTitle:hover {
+	cursor:pointer;
+	box-shadow: 0 0 1px 1px #1abc9c;
+}

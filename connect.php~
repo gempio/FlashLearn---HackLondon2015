@@ -1,0 +1,8 @@
+<?php
+
+	$servername = "178.62.88.110";
+	$username = "root";
+	$password = "HelloWorld";
+	
+	$con = mysqli_connect($servername,$username,$password,"Tester",3306);
+?>
